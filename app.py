@@ -21,7 +21,7 @@ df = pd.read_csv(
 
 
 def generate_table(dataframe, max_rows=10):
-    return html.table(
+    return html.Table(
         # Header
         [html.Tr([html.Th(col) for col in dataframe.columns])] +
 
