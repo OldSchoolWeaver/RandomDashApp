@@ -318,7 +318,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   table {
     border-collapse: collapse;
-    
+    background-color:white;
+    border-collapse:collapse;
+    font-family:Georgia, Garamond, Serif;
+    color:black;
   }
   th,
   td {
