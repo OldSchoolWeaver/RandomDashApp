@@ -4,7 +4,9 @@ import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
 
-external_stylesheets = ['https://github.com/OldSchoolWeaver/RandomDashApp/blob/master/mycss.css']
+external_stylesheets = ['https://raw.githubusercontent.com/OldSchoolWeaver/RandomDashApp/master/mycss.css']
+
+#https://codepen.io/chriddyp/pen/bWLwgP.css'
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
