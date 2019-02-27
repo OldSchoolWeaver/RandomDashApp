@@ -4,7 +4,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
 
-external_stylesheets = ['/Users/miguelbayansoares/Applications/DashApp/mycss.css']
+external_stylesheets = ['https://github.com/OldSchoolWeaver/RandomDashApp/blob/master/mycss.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
@@ -21,7 +21,7 @@ df = pd.read_csv(
 
 
 def generate_table(dataframe, max_rows=10):
-    return html.Table(
+    return html.table(
         # Header
         [html.Tr([html.Th(col) for col in dataframe.columns])] +
 
